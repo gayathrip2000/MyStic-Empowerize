@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage1"
+    tools:context=".landing_page1">
+
+
+    <ImageView
+        android:id="@+id/homelogo"
+        android:layout_width="58dp"
+        android:layout_height="59dp"
+        android:src="@drawable/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
+
+    <TextView
+        android:id="@+id/homepage2text"
+        android:layout_width="356dp"
+        android:layout_height="103dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/landing_text"
+        android:textAlignment="center"
+        android:textColor="#FFFBFB"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

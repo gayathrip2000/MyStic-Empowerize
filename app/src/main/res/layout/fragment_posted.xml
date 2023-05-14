@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Posted">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="414dp"
+        android:layout_height="616dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/shapes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="201dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="454dp"
+        android:src="@drawable/wso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="322dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="302dp"
+        android:src="@drawable/shapes_custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="290dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="310dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/wso2_is_an_open_source_middleware_platform_for_developing_integrating_and_managing_applications_and_services_efficiently_and_securely"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/post_vacancy"
+        android:layout_width="273dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="497dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="191dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/see_posted_vacancy"
+        android:textColor="@color/blue"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

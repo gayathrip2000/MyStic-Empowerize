@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "131641577945",
+    "project_id": "empowrize-be693",
+    "storage_bucket": "empowrize-be693.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131641577945:android:6934a513179061ed66c9c8",
+        "android_client_info": {
+          "package_name": "com.example.empowerize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131641577945-oh9fpjgkqivm9m7bgmvdf9ct64es2ora.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd6nQzZa-YjrTUtrOReAM_0CsKTl8ZSx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131641577945-oh9fpjgkqivm9m7bgmvdf9ct64es2ora.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

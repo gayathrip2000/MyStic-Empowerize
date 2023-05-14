@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddJob1">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        android:id="@+id/vacancy_edit_shape"
+        android:layout_width="412dp"
+        android:layout_height="639dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shapes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/add_vacancy_details_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="99dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/add_new_vacancy"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/job_role_input_box"
+        android:layout_width="379dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/roles_and_responsibilities_input_box"
+        android:layout_width="379dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/salary_box_input"
+        android:layout_width="379dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location_box_input"
+        android:layout_width="379dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/job_role"
+        android:layout_width="337dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="38dp"
+        android:background="@null"
+        android:gravity="top"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="@string/job_role"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/location_text"
+        android:layout_width="337dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="38dp"
+        android:background="@null"
+        android:gravity="top"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="@string/location_text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/r_and_r_text"
+        android:layout_width="332dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="39dp"
+        android:background="@null"
+        android:gravity="top"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="@string/roles_and_responsibilites"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/salary_text"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="487dp"
+        android:layout_marginEnd="43dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="@string/salary"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="148dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="220dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/create"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/blue"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/payment_button"
+        android:layout_width="148dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="226dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/cutom_button_blue"
+        android:text="@string/payment"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/countinue_button"
+        android:layout_width="198dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="111dp"
+        android:background="@drawable/custom_button"
+        android:onClick="onContinueClicked"
+        android:text="@string/cont"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

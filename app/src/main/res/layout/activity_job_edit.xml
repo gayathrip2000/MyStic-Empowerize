@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_job_2">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".job_edit">
+
+
+    <TextView
+        android:id="@+id/vacancy_edit_shape"
+        android:layout_width="410dp"
+        android:layout_height="632dp"
+        android:background="@drawable/shapes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/edit_vacancy_details_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="648dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Edit vacancy details"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/edit_vacancy_jpo_type_box"
+        android:layout_width="370dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="547dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/salary_box_edit_input"
+        android:layout_width="365dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/location_box_edit_input"
+        android:layout_width="365dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="589dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/edit_vacancy_vacancy_details_text"
+        android:layout_width="272dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="568dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="@string/farmmanager"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/edit_responsibilities"
+        android:layout_width="375dp"
+        android:layout_height="305dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="226dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/roles_and_responsibilites"
+        android:layout_width="331dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="253dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="@string/quli_text"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/salary_text"
+        android:layout_width="288dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="538dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="166dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint=""
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/location_input_text"
+        android:layout_width="288dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="589dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="88dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint=""
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/edit_vacancacy_box"
+        android:layout_width="331dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="470dp"
+        android:background="@drawable/shapes_custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/edit_pen_job_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="564dp"
+        android:src="@drawable/edit_pen_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/edit_pen_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="541dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="166dp"
+        android:src="@drawable/edit_pen_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/edit_location_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="607dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/edit_pen_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/edit_pen_job_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="479dp"
+        android:src="@drawable/baseline_edit_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/edt_roles_and_res_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="479dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/roles_and_responsibilites"
+        android:textColor="@color/blue"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/save_changes_button"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="659dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/save_changes"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/blue"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/edit_backward_button"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="357dp"
+        android:layout_marginBottom="683dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_back_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

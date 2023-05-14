@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_job_2">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+
+
+    <TextView
+        android:id="@+id/vacancy_edit_shape"
+        android:layout_width="433dp"
+        android:layout_height="652dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shapes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/add_vacancy_details_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="648dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/add_new_vacancy"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="149dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="220dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginBottom="535dp"
+        android:background="@drawable/cutom_button_blue"
+        android:text="@string/create"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/payment_button"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="226dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="534dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/payment"
+        android:textColor="@color/blue"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/total_fee_text_box"
+        android:layout_width="364dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="415dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/total_fee"
+        android:layout_width="327dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="429dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="@string/total_fee"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/card_number_input"
+        android:layout_width="154dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="337dp"
+        android:background="@null"
+        android:hint="@string/card_number"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/expire_date_input"
+        android:layout_width="61dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="265dp"
+        android:background="@null"
+        android:hint="@string/mm_yy"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cvv_input"
+        android:layout_width="61dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="260dp"
+        android:background="@null"
+        android:hint="@string/cvvtext"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cash_holder_input"
+        android:layout_width="163dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="180dp"
+        android:background="@null"
+        android:hint="@string/cash_holder"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textColorHint="@color/light_grey"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/card_number_box"
+        android:layout_width="361dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="325dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/card_number_text"
+        android:layout_width="179dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="325dp"
+        android:background="@drawable/shapes_custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/card_no_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="340dp"
+        android:text="@string/card_number"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/blue"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="329dp"
+        android:src="@drawable/maseter_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/card_number_box3"
+        android:layout_width="164dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/card_number_box4"
+        android:layout_width="164dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/expire_date_box"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/shapes_custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cvv_box"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/shapes_custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/expire_date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="447dp"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="266dp"
+        android:text="@string/expire_date"
+        android:textColor="@color/blue"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/expire_date_text_in_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="265dp"
+        android:text="@string/cvv"
+        android:textColor="@color/blue"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/card_holder_name"
+        android:layout_width="361dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/input_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/cash_holder_box_2"
+        android:layout_width="177dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="174dp"
+        android:background="@drawable/shapes_custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cash_holder_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="188dp"
+        android:text="@string/cash_holder_name"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/blue"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/policy_text_1"
+        android:layout_width="191dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="643dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="62dp"
+        android:text="@string/by_continuing_you_agree_to"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/policy_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="41dp"
+        android:text="@string/payment_policy"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/yellow"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/payment_now_button"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="82dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/pay_now"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="setOnClickListener"
+        android:textColor="@color/blue"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
