@@ -59,7 +59,7 @@ class successfull : AppCompatActivity() {
         // Set a click listener for the button
         addVacanciesButton.setOnClickListener {
             // Create an intent to start the available_vacancies activity
-            val intent = Intent(this, Posted_Vacancy::class.java)
+            val intent = Intent(this, Posted::class.java)
             startActivity(intent)
         }
 
